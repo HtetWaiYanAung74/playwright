@@ -9,7 +9,7 @@ test.describe('Home page', () => {
         // verify url
          expect(page.url()).toContain('cricket');
         
-         // check logo visible
+         // check the logo visible
           expect(page.locator("//img[@alt='Header Logo']")).toBeVisible;
     })
 

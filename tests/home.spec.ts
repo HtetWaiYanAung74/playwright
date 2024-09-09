@@ -14,7 +14,7 @@ test.describe('Home page', () => {
     })
 
     test('Scenario 2, Search and verify new url and heading', async ({ page }) => {
-        // access the page
+        // access the page link
         await page.goto('https://www.icc-cricket.com/tournaments/cricketworldcup');
 
         // click search button

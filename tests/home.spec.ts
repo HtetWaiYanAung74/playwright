@@ -17,7 +17,7 @@ test.describe('Home page', () => {
         // access the page
         await page.goto('https://www.icc-cricket.com/tournaments/cricketworldcup');
 
-        // click search
+        // click search button
         await page.locator("//span[@class='font-cta inline']").click();
         
 
